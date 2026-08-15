@@ -18,9 +18,9 @@ const Hero = () => {
               </p>
             </div>
 
-            <h1 className="text-6xl font-[figtree] font-medium leading-tight ">
+            <h1 className="text-5xl md:text-6xl md:max-w-157.5 font-[figtree] font-medium leading-tight ">
               I don't just write Code.
-              <br /> I build Software.
+              I build Software.
             </h1>
 
             <p className="text-muted-foreground max-w-xl text-md font-[figtree]">

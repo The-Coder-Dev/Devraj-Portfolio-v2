@@ -1,8 +1,13 @@
+import Hero from "@/components/landing/Hero"
+import WorkSection from "@/components/landing/Work"
 
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <main>
+      <Hero />
+      <WorkSection />
+    </main>
   )
 }
 
