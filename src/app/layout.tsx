@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Diphylleia, Figtree } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/landing/Navbar";
 import LenisProvider from "@/components/landing/LenisProvider";
 
 const figtree = Figtree({ subsets: ["latin"], variable: "--font-sans" });
@@ -36,16 +35,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-screen flex flex-col p-5 ">
         <LenisProvider>
-          <Navbar />
-          <div
-            className="
-          fixed
-          inset-0
-          pointer-events-none
-          opacity-[0.03]
-          bg-[url('/noise.gif')]
-          z-10"
-          />
           {children}
         </LenisProvider>
       </body>
