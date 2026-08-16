@@ -12,13 +12,13 @@ const Hero = () => {
           <div className="w-full p-10 pb-20 flex flex-col justify-end gap-3 bg-linear-to-t from-[#0B43A2] from-55% to-blue-transparent">
             
 
-            <div className="bg-white/10 backdrop-blur-sm flex items-center justify-center w-fit px-2 py-5 rounded-md border">
-              <p className="text-sm leading-0">
+            <div className="bg-white/10 backdrop-blur-sm flex items-center justify-center w-fit px-2 py-4  rounded-md border">
+              <p className="text-sm leading-0 font-sans">
                 SOFTWARE ENGINEER · PRODUCT BUILDER
               </p>
             </div>
 
-            <h1 className="text-6xl font-[figtree] font-medium leading-tight ">
+            <h1 className="text-6xl font-sans font-bold leading-tight ">
               I don't just write Code.
               <br /> I build Software.
             </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
                 className="rounded-md sm cursor-pointer font-[figtree]"
                 size="lg"
               >
-                Resume
+                Grab my resume
               </Button>
 
               <Button
