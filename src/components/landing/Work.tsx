@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
-import SectionTitle from "@/components/landing/SectionTitke"
+import SectionTitle from "@/components/landing/SectionTitle"
 
 
 const WorkSection = () => {
